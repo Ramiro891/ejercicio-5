@@ -1,0 +1,56 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1170px) {
+    .contenedor2 {
+        display: none;
+    }
+    table {
+        border: 3px solid black;
+        width: 80%;
+        border-spacing: 0;
+        margin: 0 auto;
+    }
+    th {
+        background-color: rgb(171, 12, 207);
+        color: bisque;
+    }
+    td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgba(8, 8, 8, 0.574);
+    }
+    tr:nth-child(odd) {
+        background-color: rgb(206, 106, 228);
+        color: azure;
+    }
+    .descripcion {
+        width: 40%;
+    }
+    .contenedor1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1169px) {
+    .contenedor1 {
+        display: none;
+    }
+    .personaje {
+        text-align: center;
+        background-color: rgb(206, 106, 228);
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .perso {
+        border-radius: 5px;
+        margin: 20px 10%;
+        background-color: azure;
+        padding: 10px;
+    }
+}
